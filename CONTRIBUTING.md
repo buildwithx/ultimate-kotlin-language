@@ -7,8 +7,7 @@ Thanks for helping improve Ultimate Kotlin Language.
 - Include small, runnable Kotlin examples where practical.
 - Add exercises that test understanding rather than memorization.
 - Prefer idiomatic Kotlin and explain trade-offs where useful.
-- Link to official Kotlin documentation for deeper reading.
-- Do not copy large sections of third-party documentation.
+- Link to official Kotlin documentation instead of copying large sections.
 
 ## Suggested lesson structure
 1. Learning objectives
