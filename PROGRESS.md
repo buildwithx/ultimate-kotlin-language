@@ -1,6 +1,6 @@
 # Learning Progress
 
-Mark a module complete after you can explain its core ideas and finish the exercises without copying the example.
+Mark a module complete when you can explain the ideas and solve its exercises without copying the example.
 
 - [ ] 00 — Getting Started
 - [ ] 01 — Variables and Basic Types
@@ -30,4 +30,4 @@ Mark a module complete after you can explain its core ideas and finish the exerc
 - [ ] Number Guessing Game
 - [ ] Console Task Manager
 - [ ] Expense Tracker
-- [ ] Final capstone of your choice
+- [ ] Final capstone
