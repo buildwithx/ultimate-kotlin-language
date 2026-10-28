@@ -8,13 +8,21 @@ Use val and var, infer types, and work with numbers, booleans, characters, and s
 
 ## Example
 
-See [examples/Main.kt](examples/Main.kt).
+```kotlin
+fun main() {
+    val language = "Kotlin"
+    var year = 2026
+    year += 1
+    val isFun: Boolean = true
+    println("$language in $year: $isFun")
+}
+```
 
 ## Exercises
 
-- [ ] Declare an immutable val and a mutable var.
-- [ ] Try Int, Long, Double, Char, Boolean, and String values.
-- [ ] Explain why val does not necessarily make an object deeply immutable.
+1. Declare an immutable val and a mutable var.
+2. Try Int, Long, Double, Char, Boolean, and String values.
+3. Explain why val does not make a referenced object deeply immutable.
 
 ## Further reading
 
