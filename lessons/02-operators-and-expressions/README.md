@@ -8,13 +8,21 @@ Use arithmetic, comparison, logical, assignment, and range operators.
 
 ## Example
 
-See [examples/Main.kt](examples/Main.kt).
+```kotlin
+fun main() {
+    val subtotal = 24.50
+    val taxRate = 0.10
+    val total = subtotal * (1 + taxRate)
+    println("Total: $total")
+    println(5 in 1..10)
+}
+```
 
 ## Exercises
 
-- [ ] Calculate the area of a rectangle.
-- [ ] Determine whether a number is even using %.
-- [ ] Write a Boolean expression for a number between 10 and 20 inclusive.
+1. Calculate the area of a rectangle.
+2. Determine whether an integer is even using %.
+3. Check whether a number is between 10 and 20 inclusive.
 
 ## Further reading
 
