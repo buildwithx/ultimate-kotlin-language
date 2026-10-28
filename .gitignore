@@ -1,0 +1,17 @@
+# Gradle
+.gradle/
+build/
+out/
+
+# IntelliJ IDEA
+.idea/
+*.iml
+
+# JVM/Kotlin outputs
+*.class
+*.jar
+*.war
+
+# OS/editor
+.DS_Store
+Thumbs.db
