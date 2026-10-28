@@ -16,7 +16,7 @@ A hands-on, structured curriculum for learning Kotlin from zero to advanced. Les
 
 ## Environment setup
 
-**Recommended:** IntelliJ IDEA with the Kotlin plugin and a supported JDK for Kotlin/JVM. For current requirements and installation steps, use the [official getting started guide](https://kotlinlang.org/docs/getting-started.html).
+**Recommended:** IntelliJ IDEA with the Kotlin plugin and a supported JDK for Kotlin/JVM. For current requirements and installation steps, use the [official getting started guide](https://kotlinlang.org/docs/getting-started.html) or [command-line compiler guide](https://kotlinlang.org/docs/command-line.html).
 
 ### macOS
 Install IntelliJ IDEA using JetBrains Toolbox, then configure a supported JDK. If you prefer package-manager tools, check current Homebrew formulas and the official Kotlin compiler installation instructions before installing.
@@ -53,29 +53,29 @@ You can also create a Kotlin/JVM project in IntelliJ IDEA and run `main` directl
 
 | # | Module | Level |
 |---:|---|---|
-| 00 | Getting Started | Beginner |
-| 01 | Variables and Basic Types | Beginner |
-| 02 | Operators and Expressions | Beginner |
-| 03 | Control Flow | Beginner |
-| 04 | Functions | Beginner |
-| 05 | Null Safety | Beginner |
-| 06 | Strings, Ranges, and Arrays | Beginner |
-| 07 | Collections | Beginner–Intermediate |
-| 08 | Classes and Objects | Intermediate |
-| 09 | Inheritance, Interfaces, and Sealed Types | Intermediate |
-| 10 | Object Declarations and Data Classes | Intermediate |
-| 11 | Functional Kotlin and Lambdas | Intermediate |
-| 12 | Generics and Type System | Intermediate–Advanced |
-| 13 | Extensions, Delegation, and DSLs | Advanced |
-| 14 | Exceptions, Files, and I/O | Intermediate |
-| 15 | Packages, Modules, and Gradle | Intermediate |
-| 16 | Testing and Debugging | Intermediate |
-| 17 | Coroutines and Concurrency | Advanced |
-| 18 | Java Interoperability and JVM | Advanced |
-| 19 | Kotlin Multiplatform Overview | Advanced |
-| 20 | Idiomatic Kotlin and Design | Advanced |
-| 21 | Algorithms and Problem Solving | All levels |
-| 22 | Capstone Projects | Practical |
+| 00 | [Getting Started](lessons/00-getting-started/README.md) | Beginner |
+| 01 | [Variables and Basic Types](lessons/01-variables-and-basic-types/README.md) | Beginner |
+| 02 | [Operators and Expressions](lessons/02-operators-and-expressions/README.md) | Beginner |
+| 03 | [Control Flow](lessons/03-control-flow/README.md) | Beginner |
+| 04 | [Functions](lessons/04-functions/README.md) | Beginner |
+| 05 | [Null Safety](lessons/05-null-safety/README.md) | Beginner |
+| 06 | [Strings, Ranges, and Arrays](lessons/06-strings-ranges-arrays/README.md) | Beginner |
+| 07 | [Collections](lessons/07-collections/README.md) | Beginner–Intermediate |
+| 08 | [Classes and Objects](lessons/08-classes-and-objects/README.md) | Intermediate |
+| 09 | [Inheritance, Interfaces, and Sealed Types](lessons/09-inheritance-interfaces-sealed-types/README.md) | Intermediate |
+| 10 | [Object Declarations and Data Classes](lessons/10-object-declarations-data-classes/README.md) | Intermediate |
+| 11 | [Functional Kotlin and Lambdas](lessons/11-functional-kotlin-lambdas/README.md) | Intermediate |
+| 12 | [Generics and Type System](lessons/12-generics-and-type-system/README.md) | Intermediate–Advanced |
+| 13 | [Extensions, Delegation, and DSLs](lessons/13-extensions-delegation-dsls/README.md) | Advanced |
+| 14 | [Exceptions, Files, and I/O](lessons/14-exceptions-files-io/README.md) | Intermediate |
+| 15 | [Packages, Modules, and Gradle](lessons/15-packages-modules-gradle/README.md) | Intermediate |
+| 16 | [Testing and Debugging](lessons/16-testing-debugging/README.md) | Intermediate |
+| 17 | [Coroutines and Concurrency](lessons/17-coroutines-concurrency/README.md) | Advanced |
+| 18 | [Java Interoperability and JVM](lessons/18-java-interoperability-jvm/README.md) | Advanced |
+| 19 | [Kotlin Multiplatform Overview](lessons/19-kotlin-multiplatform-overview/README.md) | Advanced |
+| 20 | [Idiomatic Kotlin and Design](lessons/20-idiomatic-kotlin-design/README.md) | Advanced |
+| 21 | [Algorithms and Problem Solving](lessons/21-algorithms-problem-solving/README.md) | All levels |
+| 22 | [Capstone Projects](lessons/22-capstone-projects/README.md) | Practical |
 
 Each lesson folder contains a lesson guide, an `examples/Main.kt` file, and exercises. Advanced/platform-specific examples may require a configured Gradle project; their prerequisites are noted in the lesson.
 
