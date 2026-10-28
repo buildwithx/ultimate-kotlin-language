@@ -4,17 +4,21 @@
 
 ## Learning objectives
 
-Understand what Kotlin is, where it runs, and how a Kotlin program starts.
+Learn what Kotlin is, where it runs, and how a program starts.
 
 ## Example
 
-See [examples/Main.kt](examples/Main.kt).
+```kotlin
+fun main() {
+    println("Hello, Kotlin!")
+}
+```
 
 ## Exercises
 
-- [ ] Install or open an environment that can run Kotlin.
-- [ ] Run the example and explain what main and println do.
-- [ ] Change the output to include your own greeting.
+1. Install or open an environment that can run Kotlin.
+2. Run the example and explain main and println.
+3. Change the output to display your own greeting.
 
 ## Further reading
 
