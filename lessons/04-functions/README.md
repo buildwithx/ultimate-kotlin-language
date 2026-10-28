@@ -8,13 +8,20 @@ Declare functions, parameters, return types, default arguments, named arguments,
 
 ## Example
 
-See [examples/Main.kt](examples/Main.kt).
+```kotlin
+fun greet(name: String, punctuation: String = "!"): String = "Hello, $name$punctuation"
+
+fun main() {
+    println(greet(name = "Kotlin"))
+    println(greet("World", "."))
+}
+```
 
 ## Exercises
 
-- [ ] Create a function that converts Celsius to Fahrenheit.
-- [ ] Create a function with a default parameter.
-- [ ] Write a function that returns the larger of two integers.
+1. Create a Celsius-to-Fahrenheit conversion function.
+2. Create a function with a default parameter.
+3. Write a function that returns the larger of two integers.
 
 ## Further reading
 
